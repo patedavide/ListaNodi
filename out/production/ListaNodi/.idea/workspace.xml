@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9bcbc567-e1d6-49af-a687-a19f59bc86a5" name="Changes" comment="no file .idea e classe Liste">
+    <list default="true" id="9bcbc567-e1d6-49af-a687-a19f59bc86a5" name="Changes" comment="no file .idea">
       <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Liste.java" beforeDir="false" afterPath="$PROJECT_DIR$/Liste.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +48,6 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
@@ -120,22 +118,13 @@
       <option name="project" value="LOCAL" />
       <updated>1768563804928</updated>
     </task>
-    <task id="LOCAL-00008" summary="no file .idea e classe Liste">
-      <option name="closed" value="true" />
-      <created>1768566511150</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1768566511150</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="classe Nodo" />
     <MESSAGE value="no file .idea" />
-    <MESSAGE value="no file .idea e classe Liste" />
-    <option name="LAST_COMMIT_MESSAGE" value="no file .idea e classe Liste" />
+    <option name="LAST_COMMIT_MESSAGE" value="no file .idea" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

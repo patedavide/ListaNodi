@@ -57,4 +57,8 @@ public class Liste {
         }
         return this.cursor.getValore();
     }
+
+    public String toSting(){
+        return "Liste [size=" + size + ", head=" + head + ", cursor=" + cursor + "]";
+    }
 }

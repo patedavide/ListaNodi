@@ -52,10 +52,14 @@ public class Liste {
     }
 
     public String visitaNodo(){
+
         if(this.cursor == null){
             return null;
         }
-        return this.cursor.getValore();
+
+        String valore = this.cursor.getValore();
+        this.cursor = this.cursor.getNext();
+        return valore;
     }
 
     public void inserimentoNodo(String valore, int indice){
@@ -83,6 +87,7 @@ public class Liste {
     public int ricercaNodo(String valore){
         Nodo temp = this.head;
         int indice = 0;
+
         while(temp != null){
             if(temp.getValore().equals(valore)){
                 return indice;
@@ -90,7 +95,32 @@ public class Liste {
             temp = temp.getNext();
             indice++;
         }
-        return 1;
+        return -1;
+    }
+
+    public void eliminaNodo(int indice){
+        if( indice<0 || indice >= this.size){
+            System.out.println("Indice non valido");
+        }
+
+        if(indice == 0){
+            this.head = this.head.getNext();
+        } else {
+            Nodo temp = this.head;
+            for(int i=0; i<indice-1; i++){
+                temp = temp.getNext();
+            }
+            temp.setNext( temp.getNext().getNext() );
+        }
+        this.size--;
+        if(this.size == 0) {
+            this.cursor = null;
+        }
+
+    }
+
+    public void eliminaValore(String valore){
+
     }
 
     public String toSting(){

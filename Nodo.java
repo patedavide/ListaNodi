@@ -21,4 +21,8 @@ public class Nodo {
         this.next = next;
     }
 
+    public String toString(){
+        return "Nodo[valore: " + valore + "next: " + next +"]";
+    }
+
 }

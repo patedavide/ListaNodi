@@ -123,7 +123,7 @@ public class Liste {
 
     }
 
-    public String toSting(){
+    public String toString(){
         return "Liste [size=" + size + ", head=" + head + ", cursor=" + cursor + "]";
     }
 }

@@ -12,7 +12,16 @@ public class Main {
             System.out.println("Nodo " + i + ": " + lista.leggiNodo(i));
         }
 
+        System.out.println("Visita dei nodi tramite cursore:");
+        String valoreNodo;
+        while((valoreNodo = lista.visitaNodo()) != null){
+            System.out.println("Valore del nodo corrente (cursore): " + valoreNodo);
+        }
+
+        lista.setCursor(lista.getHead());
+        System.out.println("Reset cursore al nodo head.");
         System.out.println("Valore del nodo corrente (cursore): " + lista.visitaNodo());
+
 
     }
 }

@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9bcbc567-e1d6-49af-a687-a19f59bc86a5" name="Changes" comment="Metodo elimina singolo nodo" />
+    <list default="true" id="9bcbc567-e1d6-49af-a687-a19f59bc86a5" name="Changes" comment="Metodi toString">
+      <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -177,7 +179,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769068171373</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Metodi toString">
+      <option name="closed" value="true" />
+      <created>1769068531195</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1769068531195</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -189,7 +199,8 @@
     <MESSAGE value="Metodo inserimento" />
     <MESSAGE value="Metodo ricerca" />
     <MESSAGE value="Metodo elimina singolo nodo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Metodo elimina singolo nodo" />
+    <MESSAGE value="Metodi toString" />
+    <option name="LAST_COMMIT_MESSAGE" value="Metodi toString" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

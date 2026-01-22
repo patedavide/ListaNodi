@@ -58,16 +58,26 @@ public class Liste {
         return this.cursor.getValore();
     }
 
-    public void inserimentoNodo(String valore){
-        if(this.cursor == null){
-            System.out.println("Cursore non posizionato");
-            return;
+    public void inserimentoNodo(String valore, int indice){
+        if(indice <0 || indice > this.size){
+            System.out.println("Indice non valido");
         }
 
         Nodo nuovoNodo = new Nodo(valore);
-        nuovoNodo.setNext(this.cursor.getNext());
-        this.cursor.setNext(nuovoNodo);
+
+        if(indice == 0){
+            nuovoNodo.setNext(this.head);
+            this.head = nuovoNodo;
+        } else {
+            Nodo temp = this.head;
+            for(int i=0; i<indice-1; i++){
+                temp = temp.getNext();
+            }
+            nuovoNodo.setNext(temp.getNext());
+            temp.setNext(nuovoNodo);
+        }
         this.size++;
+
     }
 
     public String toSting(){

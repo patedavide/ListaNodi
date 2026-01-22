@@ -13,5 +13,6 @@ public class Main {
         }
 
         System.out.println("Valore del nodo corrente (cursore): " + lista.visitaNodo());
+
     }
 }

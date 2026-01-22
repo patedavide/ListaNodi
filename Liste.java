@@ -58,6 +58,18 @@ public class Liste {
         return this.cursor.getValore();
     }
 
+    public void inserimentoNodo(String valore){
+        if(this.cursor == null){
+            System.out.println("Cursore non posizionato");
+            return;
+        }
+
+        Nodo nuovoNodo = new Nodo(valore);
+        nuovoNodo.setNext(this.cursor.getNext());
+        this.cursor.setNext(nuovoNodo);
+        this.size++;
+    }
+
     public String toSting(){
         return "Liste [size=" + size + ", head=" + head + ", cursor=" + cursor + "]";
     }

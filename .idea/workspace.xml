@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9bcbc567-e1d6-49af-a687-a19f59bc86a5" name="Changes" comment="no .idea">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="9bcbc567-e1d6-49af-a687-a19f59bc86a5" name="Changes" comment="Metodo inserimento">
       <change beforePath="$PROJECT_DIR$/Liste.java" beforeDir="false" afterPath="$PROJECT_DIR$/Liste.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ListaNodi/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListaNodi/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ListaNodi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListaNodi/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +164,8 @@
     <MESSAGE value="no file .idea e classe Liste" />
     <MESSAGE value="Classe Main e metodo toString" />
     <MESSAGE value="no .idea" />
-    <option name="LAST_COMMIT_MESSAGE" value="no .idea" />
+    <MESSAGE value="Metodo inserimento" />
+    <option name="LAST_COMMIT_MESSAGE" value="Metodo inserimento" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

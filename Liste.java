@@ -80,6 +80,19 @@ public class Liste {
 
     }
 
+    public int ricercaNodo(String valore){
+        Nodo temp = this.head;
+        int indice = 0;
+        while(temp != null){
+            if(temp.getValore().equals(valore)){
+                return indice;
+            }
+            temp = temp.getNext();
+            indice++;
+        }
+        return 1;
+    }
+
     public String toSting(){
         return "Liste [size=" + size + ", head=" + head + ", cursor=" + cursor + "]";
     }

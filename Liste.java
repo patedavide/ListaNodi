@@ -119,9 +119,28 @@ public class Liste {
 
     }
 
-    public void eliminaValore(String valore){
+    public void eliminaTuttiValori(String valore) {
+        while (this.head != null && this.head.getValore().equals(valore)) {
+            this.head = this.head.getNext();
+            this.size--;
+        }
 
+        if (this.head == null) {
+            this.cursor = null;
+            return;
+        }
+
+        Nodo temp = this.head;
+        while (temp.getNext() != null) {
+            if (temp.getNext().getValore().equals(valore)) {
+                temp.setNext(temp.getNext().getNext());
+                this.size--;
+            } else {
+                temp = temp.getNext();
+            }
+        }
     }
+
 
     public String toString(){
         return "Liste [size=" + size + ", head=" + head + ", cursor=" + cursor + "]";

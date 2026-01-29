@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9bcbc567-e1d6-49af-a687-a19f59bc86a5" name="Changes" comment="Metodi toString e classe Main">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Liste.java" beforeDir="false" afterPath="$PROJECT_DIR$/Liste.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ListaNodi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListaNodi/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ListaNodi/Liste.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListaNodi/Liste.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ListaNodi/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListaNodi/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,12 +34,12 @@
     &quot;assignee&quot;: &quot;patedavide&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/patedavide/ListaNodi.git&quot;,
-    &quot;accountId&quot;: &quot;1a25a814-d3ba-4d3d-a1a2-261a2e52be27&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/patedavide/ListaNodi.git",
+    "accountId": "d04db964-0a5d-49c6-a267-38c475d0967a"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>

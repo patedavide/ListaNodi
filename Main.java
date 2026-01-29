@@ -47,5 +47,12 @@ public class Main {
             System.out.println("Nodo " + i + ": " + lista.leggiNodo(i));
         }
 
+        lista.inserimentoOrdinato("A");
+        lista.inserimentoOrdinato("M");
+        lista.inserimentoOrdinato("D");
+        lista.setCursor(lista.getHead());
+        System.out.println("\nLista dopo inserimentoOrdinato(A, M, D):");
+
+
     }
 }

@@ -141,6 +141,23 @@ public class Liste {
         }
     }
 
+    public void inserimentoOrdinato(String valore){
+        Nodo nuovoNodo = new Nodo(valore);
+
+        if(this.head == null || this.head.getValore().compareTo(valore) >=0){
+            nuovoNodo.setNext(this.head);
+            this.head = nuovoNodo;
+        } else {
+            Nodo temp = this.head;
+            while(temp.getNext() != null && temp.getNext().getValore().compareTo(valore) <0){
+                temp = temp.getNext();
+            }
+            nuovoNodo.setNext(temp.getNext());
+            temp.setNext(nuovoNodo);
+        }
+        this.size++;
+    }
+
 
     public String toString(){
         return "Liste [size=" + size + ", head=" + head + ", cursor=" + cursor + "]";

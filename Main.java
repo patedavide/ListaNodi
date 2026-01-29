@@ -51,8 +51,11 @@ public class Main {
         lista.inserimentoOrdinato("M");
         lista.inserimentoOrdinato("D");
         lista.setCursor(lista.getHead());
-        System.out.println("\nLista dopo inserimentoOrdinato(A, M, D):");
 
+        System.out.println("\nLista dopo inserimentoOrdinato(A, M, D):");
+        for (int i = 0; i < lista.getSize(); i++) {
+            System.out.println("Nodo " + i + ": " + lista.leggiNodo(i));
+        }
 
     }
 }
